@@ -81,7 +81,7 @@ socketio-chat/
 
 ### Step 1: Clone the Repository
 ```bash
-git clone <https://github.com/l1Nus-M/socketio-chat>
+git clone https://github.com/l1Nus-M/socketio-chat
 cd socketio-chat
 ```
 
