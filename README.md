@@ -74,8 +74,10 @@ socketio-chat/
 ## 📦 Installation & Setup
 
 ### Prerequisites
-- Node.js (v14 or higher)
+- Node.js (v18 or higher)
 - npm or yarn
+- Modern web browser
+- Basic understanding of React and Express
 
 ### Step 1: Clone the Repository
 ```bash
@@ -186,77 +188,9 @@ The client will start on `http://localhost:3000`
 - `message_reaction_removed` - Reaction removed from message
 - `message_read` - Message marked as read
 
-## 🎨 Customization
-
-### Styling
-The application uses CSS for styling. You can customize the appearance by modifying:
-- `client/src/App.css` - Main styles
-- `client/src/index.css` - Global styles
-
 ### Configuration
 - Server port: Modify `PORT` in server `.env` file
 - JWT secret: Change `JWT_SECRET` in server `.env` file
 - Client URL: Update `CLIENT_URL` in server `.env` file
-
-## 🚀 Deployment
-
-### Production Build
-```bash
-# Build the React app
-cd client
-npm run build
-
-# The built files will be in client/build/
-```
-
-### Environment Variables for Production
-```env
-PORT=5000
-JWT_SECRET=your-production-secret-key
-CLIENT_URL=https://your-domain.com
-NODE_ENV=production
-```
-
-## 🧪 Testing
-
-### Server Tests
-```bash
-cd server
-npm test
-```
-
-### Client Tests
-```bash
-cd client
-npm test
-```
-
-## 🤝 Contributing
-
-1. Fork the repository
-2. Create a feature branch (`git checkout -b feature/amazing-feature`)
-3. Commit your changes (`git commit -m 'Add some amazing feature'`)
-4. Push to the branch (`git push origin feature/amazing-feature`)
-5. Open a Pull Request
-
-## 📝 License
-
-This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.
-
-## 🙏 Acknowledgments
-
-- Socket.io for real-time communication
-- React team for the amazing framework
-- Express.js for the web framework
-- All contributors and users of this project
-
-## 📞 Support
-
-If you encounter any issues or have questions:
-1. Check the [Issues](https://github.com/your-repo/issues) page
-2. Create a new issue with detailed information
-3. Contact the maintainers
-
----
 
 **Happy Chatting! 🎉** 
